@@ -1,0 +1,78 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: rgba(255, 0, 0, 0.582);
+}
+.cabecera-koke{
+    height: 90vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.foto1{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:20px;
+}
+.cabecera-oblak{
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.foto2{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+ 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:20px;
+}
+.cabecera-cholo{
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.foto3{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:20px;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:20px;
+}
+
+.escudo{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

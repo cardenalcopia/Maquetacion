@@ -1,0 +1,190 @@
+.cv{
+    width: 80%;
+    height: 100vh;
+    border: 5px solid #000000;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/668/806/non_2x/purple-gradient-background.jpg);
+    background-size: cover;
+}
+.Superior{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    
+}
+.fotoynombre{
+    margin:5px;
+    border-radius: 50px;
+    border:8px solid rgba(0, 0, 0, 0.096);
+    
+    width: 20%;
+}
+.foto{
+    margin: 10px;
+    border : 2px dotted rgba(44, 20, 39, 0.288);
+    height: 30%;
+    background-image: url(escarlata.jfif);
+    border-radius: 50px;
+    background-size: cover;
+}
+.nombre{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+     text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    
+    padding: 5px;
+    margin:5px;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+.experiencia{
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+   text-shadow: black 0.1em 0.1em 0.2em;
+   margin:5px; 
+    border-radius: 50px;
+    border:8px solid rgba(0, 0, 0, 0.096);
+    width: 40%;
+   padding: 2px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+}
+.nombre--texto{
+  
+    margin :15px;
+    height: 5%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+    height: 10%;
+     width: 100%;
+   font-size: medium;
+}
+.experiencia1{
+   padding: 1px;
+    height: 35%;
+    
+    
+}
+.experiencia2{
+    height: 35%;
+    padding: 1px;
+    
+}
+.experiencia1--texto{
+    
+    font-size:small;
+}
+.experiencia2-texto{
+    padding: 1px;
+    font-size:small;
+}
+.formacion{
+    width: 25%;
+    border-radius: 50px;
+    border:8px solid rgba(0, 0, 0, 0.096);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:5px;
+}
+.formacion1-texto{
+    font-size: small;
+}
+.formacion2-texto{
+    font-size: small;
+}
+.tituloformacion{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+    height: 10%;
+     width: 100%;
+   font-size: medium;
+}.bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacto{
+    width: 40%;
+    height: 90%;
+    border-radius: 50px;
+    border:8px solid rgba(0, 0, 0, 0.096);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+.habilidades{
+    border-radius: 50px;
+    border:8px solid rgba(0, 0, 0, 0.096);
+    height: 90%;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.titulohabilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-iconos{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.telefono{
+    height: 24px;
+    width: 24px;
+}
+.email{
+    height: 24px;
+    width: 24px;
+}
+.linkedin{
+    height: 24px;
+    width: 24px;
+}
+.contactostexto{
+    width: 70%;
+    height: 100%;
+}
+.hydra{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+   
+
+   
