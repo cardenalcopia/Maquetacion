@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="viajes.css">
+</head> 
+<body>
+    <div class="pagina">
+        <header class="cabecera">
+            <div class="logo">
+                <div>
+                    <h2>\\\Viajes<br>Futuro///</h2>
+                </div>
+                <div>
+                    <img class="delorean" src="delorean.png" alt="delorean">
+                </div>
+            </div>
+            <div class="enlaces" >
+                <div class="enlaces2" id="ofertas">
+                    <a href="#panelofertas"> <h3>Ofertas</h3></a>
+                   
+                </div>
+                <div class="enlaces2" id="solicitud">
+                    <a href="#paginaform"> <h3>Solicitud</h3></a>
+                   
+                </div>
+                <div class="enlaces2" id="filtrado">
+                  <a href="#paginaform"><h3>filtrado</h3></a>  
+                </div>
+
+            </div>
+
+        </header>
+        <div class="presentacion">
+            <div class="presentacion-texto">
+                <div class="encabezado-presentacion">
+                    <h3>Planificamos el futuro de tus vacaciones</h3>
+                </div>
+                <div class="texto-presentacion">
+                    <p>Desde Viajes futuro queremos agradecerte la confianza depositada en nosotros para planificar tu viaje. Llevamos desde octubre de 1985 trabajando duro para satisfacer las necesidades de nuestros clientes. Nuestros destinos son tan variados como poder vivir la experiencia Farwest, hasta la más inmersiva experiencia de los años 50. Solo una recomendación, si ves a tu otro yo...<br> NO LO SALUDES!!!</p>
+                </div>
+
+            </div>
+            <div class="frase">
+                <h1 class="a">"Disfruta de tu futuro sin pensar en el pasado"<br>Doc</h1>
+
+            </div>
+        </div>
+        <div class="panelofertas" id="panelofertas">
+            <div class="panel2">
+                <div class="cincuentas">
+                    <div class="cabecera-cincuentas">
+                        <h2>Experienci años 50</h2>
+                    </div>
+                    <div class="cuerpo-cincuentas">
+                        <ul>
+                            <li>15 Dias</li>
+                            <li>Todo incluido</li>
+                            <li>Alojamiento temático</li>
+                            <li>Clases de guitarra eléctrica</li>
+                            <li>Visita reloj del ayuntamiento</li>
+                            <li>1500$/pax</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="futuro">
+                    <div class="cabecera-futuro">
+                        <h2>Viaje Retro-futurista</h2>
+                    </div>
+                    <div class="cuerpo-futuro">
+                        <ul>
+                            <li>7 dias</li>
+                            <li>Media pensión</li>
+                            <li>Alojamiento temático</li>
+                            <li>Clases de aeropatín</li>
+                            <li>Visita tienda de almanaques</li>
+                            <li>2000$/pax</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="oeste">
+                    <div class="cabecera-oeste">
+                        <h2>Experiencia Far West</h2>
+                    </div>
+                    <div class="cuerpo-oeste">
+                        <ul>
+                            <li>10 dias</li>
+                            <li>Alojamineto y desayuno</li>
+                            <li>Casa en pueblo temático</li>
+                            <li>Clases de disparo</li>
+                            <li>Visita estación de tren</li>
+                            <li>Consutar precios y disponibilidad</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="paginaformulario" id="paginaform">
+            <div class="exp">
+                <h1> Rellene el formulario de su derecha para recibir información de nuestro equipo.</h1>
+                <div class="enviarb">
+                    <button id="filtrar" onclick="filtrar();">Filtrar</button> 
+               </div>
+               <div class="nuevo"></div>
+            </div>
+            <form class="plantilla" id="plantila">
+               
+                <div class="formu">
+                    <label for="name">Nombre: <br>
+                    </label> 
+                     <input type="text" id="name" name="name"> 
+                </div>
+               <div class="formu">
+                    <label for="origin">Origen: <br>
+                    </label> 
+                    <input type="text" id="origin" name="origin"> 
+    
+               </div>
+               <div class="formu"> 
+                    <label for="destiny">Destino: <br>
+                    </label> 
+                    <input type="text" id="destiny" name="destiny"> 
+                 </div>
+                 <div class="formu">
+                     <label for="pasenger">Nº de Pasajeros: <br>
+                    </label> 
+                    <input type="number" id="pasenger" name="pasenger">
+                </div>
+                <div class="formu">
+                    <label for="date">fechas: <br>
+                     </label> 
+                    <input type="date" id="date" name="date" value="">
+                </div>
+                
+                <div class="butons">
+                    <div class="enviarb">
+                        <button id="enviar" onclick="add();" type="reset">Enviar</button> 
+                    </div>
+                   
+                     
+                    
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
+       
+    
+    
+   <script src="viajes.js"></script> 
+</body>
+</html>

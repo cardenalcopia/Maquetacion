@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    }
+    @font-face {
+        font-family:bttf;
+        src: url(BTTF.ttf);
+    }
+    @font-face {
+        font-family:maker;
+        src: url(PermanentMarker-Regular.ttf);
+    }
+    .cabecera{
+        background-color: rgb(85, 71, 80);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        
+
+    }
+    .logo{
+        font-family:bttf;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:25%;
+       
+        background: linear-gradient(yellow,red);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .delorean{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .delorean:hover{
+        transform: scale(1.2);
+    }
+    .enlaces{
+        width:60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(rgb(255, 110, 135),rgb(113, 113, 3));
+        -webkit-background-clip: text;
+        color: transparent; 
+    }
+    .enlaces2{
+        font-family:bttf;
+        
+    }
+    a{
+        text-decoration: none;
+        background: linear-gradient(rgb(255, 110, 135),rgb(113, 113, 3));
+        -webkit-background-clip: text;
+        color: transparent; 
+    }
+    .presentacion{
+        width: 100%;
+        height: 100vh;
+        background-image: url(fondopresentacion.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .presentacion-texto{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.427);
+    }
+    .texto-presentacion{
+        padding-left: 15px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .encabezado-presentacion{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .frase{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        font-family:maker;
+        align-items:flex-start;
+        color:rgb(167, 10, 146)
+
+    }
+    .panelofertas{
+        width: 100%;
+        height: 100vh;
+        background-image: url(Back.jpg) ;
+        background-size:100%;
+       
+       
+    }
+    .panel2{
+        width: 100;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.454);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+    .oeste{
+        width: 33%;
+        height: 79%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+        font-size: x-large;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .cincuentas{
+        width: 33%;
+        height: 79%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+        font-size: x-large;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+    }
+    .futuro{
+        width: 33%;
+        height: 79%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: x-large;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .paginaformulario{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(fondoformulario.jpg);
+    }
+    .plantilla{
+        background-color: rgba(0, 0, 0, 0.856);
+        font-family: 'Poppins', sans-serif;
+        color:white;
+        font-size: x-large;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 40%;
+        height: 100%;
+        padding-left: 15px;
+
+        
+    }
+    button{
+        background-color: rebeccapurple;
+        font-family: 'Poppins', sans-serif;
+        width: 60px;
+        height: 30px;
+        color: white;
+        border-radius: 5px;
+        font-size: medium;
+        outline: none;
+        border:0;
+    }
+    .butons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .exp{
+        font-family: 'Poppins', sans-serif;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-items: center;
+        color: black;
+        width: 50%;
+        padding: 15px;
+    }
+    .nuevo{
+        font-family: 'Poppins', sans-serif;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-items: center;
+        height: 30%;
+        width: 100%;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.712);
+
+    }
+    
+    
+   
+  
