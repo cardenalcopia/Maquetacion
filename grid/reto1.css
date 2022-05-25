@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-columns: 775px 400px 775px;
+    grid-template-rows: 450px 450px;
+    color:white;
+    text-align: center;
+}
+.a{
+    background-color: blueviolet;
+}
+.b{
+    background-color: black;
+}
+.c{
+    background-color: yellow;
+}
+.d{
+    background-color: red;
+}
+.e{
+    background-color: orange;
+}
+.f{
+    background-color: blue;
+}
+.grid2{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows:4fr 1fr;
+    color:white;
+    text-align: center;
+}

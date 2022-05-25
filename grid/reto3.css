@@ -1,0 +1,108 @@
+.main{
+    display: grid;
+    grid-template-columns: [x0]2fr [x1]1fr[x2]1fr;
+    grid-template-rows: [y0]1fr[y1]6fr[y2]1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.a{
+    grid-column: x0/x3;
+    grid-row: y0/y1;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.b{
+    grid-column: x0/x2;
+    grid-row: y1/y2;
+    background-color: blue;
+    color:white;
+    display: grid;
+    grid-template-columns: [ax0]2fr [ax1]1fr;
+    grid-template-rows: [ay0]1fr [ay1]2fr;
+    gap: 1em;
+    padding: 1em;
+}
+.b1{
+    grid-column: ax0/ax2;
+    grid-row: ay0/ay1;
+    border: 2px solid white;
+}
+.b2{
+    grid-column: ax0/ax1;
+    grid-row:ay1/ay3 ;
+    border:2px solid orange;
+}
+.b3{
+    grid-column: ax1/ax2;
+    grid-row: ay1/ay3;
+    border:2px solid  yellow;
+}
+.c{
+    grid-column: x2/x3;
+    grid-row: y1/y2;
+    background-color: green;
+    color:white;
+    display: grid;
+    grid-template-columns: [cx0]1fr[cx1];
+    grid-template-rows: [cy0]1fr[cy1]1fr[cy2]1fr[cy3]1fr[cy4]1fr;
+    gap: 1em;
+    padding: 1em;
+}
+.c1{
+    grid-column: cx0/cx1;
+    grid-row: cy0/cy1;
+    border: 2px solid white;
+}
+.c2{
+    grid-column:cx0/cx1 ;
+    grid-row:cy1/cy2 ;
+  background-color: black;
+    color:white;
+    text-align: center;
+
+}
+.c3{
+    grid-column:cx0/cx1 ;
+    grid-row:cy2/cy3 ;
+    background-color: black;
+    color:white;
+    text-align: center;
+
+}
+.c4{
+    grid-column:cx0/cx1 ;
+    grid-row:cy3/cy4 ;
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+.c5{
+    grid-column:cx0/cx1 ;
+    grid-row:cy4/cy5 ;
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+.d{
+    grid-column: x0/x3;
+    grid-row:y2/y3;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: [dx0]1fr[dx1]1fr;
+    grid-template-rows: [dy0]1fr;
+    gap: 1em;
+    padding: 1em;
+
+}
+.d1{
+    grid-column: dx0/dx1;
+    grid-row: dy0/dy1;
+    border: 2px solid white;
+}
+.d2{
+    grid-column: dx1/dx2;
+    grid-row: dy0/dy1;
+    border: 2px solid white;
+}

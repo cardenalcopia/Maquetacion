@@ -1,0 +1,125 @@
+.main{
+    display: grid;
+    grid-template-areas: "contador1 contadorg contadorg contadorg contador2"
+                            "player1 tablero tablero tablero player2"
+                            "player1 tablero tablero tablero player2"
+                            "player1 tablero tablero tablero player2"
+                            "footer footer footer footer footer";
+width: 100vw;
+height: 100vh;
+}   
+.marcador1{
+    grid-area: contador1;
+    background-color: black;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.marcadorg{
+    grid-area: contadorg;
+    background-color: red;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+}
+.marcador2{
+    grid-area: contador2;
+    background-color: black;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+}
+.player1{
+    grid-area: player1;
+    background-image: url("hydra2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tablero{
+    grid-area: tablero;
+    background-color: brown;
+    display: grid;
+    grid-template-areas: "casilla1 casilla2 casilla3"
+                         "casilla4 casilla5 casilla6"
+                         "casilla7 casilla8 casilla9";
+
+}
+.casilla1{
+    grid-area: casilla1;
+    border:1px solid red;
+    background-color: white;
+}
+.casilla2{
+    grid-area: casilla2;
+    border: 1px solid red;
+    background-color: blueviolet;
+    
+}
+.casilla3{
+    grid-area: casilla3;
+    border:1px solid red;
+    background-color: white;
+}
+.casilla4{
+    grid-area: casilla4;
+    border: 1px solid red;
+    background-color: blueviolet;
+    
+}
+.casilla5{
+    grid-area: casilla5;
+    border:1px solid red;
+    background-color: white;
+}
+.casilla6{
+    grid-area: casilla6;
+    border: 1px solid red;
+    background-color: blueviolet;
+    
+}
+.casilla7{
+    grid-area: casilla7;
+    border:1px solid red;
+    background-color: white;
+}
+.casilla8{
+    grid-area: casilla8;
+    border: 1px solid red;
+    background-color: blueviolet;
+    
+}
+.casilla9{
+    grid-area: casilla9;
+    border:1px solid red;
+    background-color: white;
+}
+.player2{
+    grid-area: player2;
+    background-image: url("hydra2.png");
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.footer{
+    grid-area: footer;
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: "reset reset vacio reset2 reset2";
+}
+.reset{
+    grid-area: reset;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.reset2{
+    grid-area: reset2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button{
+    border: none;
+    background-color: black;
+    color:blueviolet
+}
